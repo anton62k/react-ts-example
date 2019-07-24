@@ -1,15 +1,15 @@
 .root {
-    display: flex;
-    flex-direction: column;
-    width: 352px;
-    min-height: 300px;
-    border: 1px solid lightgrey;
-    margin: 15px;
-    padding: 15px;
-    animation: appear 300ms linear;
-    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 352px;
+  min-height: 300px;
+  border: 1px solid lightgrey;
+  margin: 15px;
+  padding: 15px;
+  animation: appear 300ms linear;
+  border-radius: 5px;
 }
 
 .item + .item {
-    margin-top: 15px;
+  margin-top: 15px;
 }
