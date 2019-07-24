@@ -14,7 +14,11 @@ export class CharTable extends Component<CharTableProps> {
     const data = store.chars.slice();
 
     return data.length ? (
-      <Table dataSource={store.chars.slice()} columns={columns} />
+      <Table
+        dataSource={store.chars.slice()}
+        columns={columns}
+        pagination={false}
+      />
     ) : null;
   }
 }

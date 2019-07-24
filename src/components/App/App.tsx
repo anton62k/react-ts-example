@@ -23,7 +23,7 @@ export class App extends Component<AppProps> {
         <div className={styles.item}>
           <CharTable store={store} />
         </div>
-        <div>
+        <div className={styles.item}>
           <CharPie store={store} />
         </div>
       </div>
